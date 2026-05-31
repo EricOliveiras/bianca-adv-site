@@ -161,6 +161,7 @@ section{position:relative;scroll-margin-top:80px}
 
 /* ---------- Depoimentos ---------- */
 .testi{background:var(--ivory)}
+.testi.sec-pad{padding-bottom:20px}
 .testi-stage{position:relative;margin-top:48px;max-width:880px;margin-left:auto;margin-right:auto}
 .testi-card{background:#fff;border:1px solid var(--line);border-radius:24px;padding:clamp(36px,5vw,64px);box-shadow:var(--shadow-md);text-align:center;position:relative;display:none}
 .testi-card.active{display:block;animation:fadeIn 0.4s ease}
@@ -179,6 +180,7 @@ section{position:relative;scroll-margin-top:80px}
 
 /* ---------- Atualizações ---------- */
 .news{background:var(--ivory)}
+.news.sec-pad{padding-top:30px}
 .news-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:54px}
 .news-card{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:var(--shadow-sm);transition:transform .3s ease,box-shadow .3s ease;display:flex;flex-direction:column}
 .news-card:hover{transform:translateY(-5px);box-shadow:var(--shadow-md)}
