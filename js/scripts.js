@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 form.classList.add('hide');
                 formOk.classList.add('show');
                 const txt = encodeURIComponent(`Olá, Dra. Bianca! Meu nome é ${nome.value.trim()}.\n${msg.value.trim()}\n\nContato: ${email.value.trim()}`);
-                window.open(`https://wa.me/5500000000000?text=${txt}`, "_blank", "noopener");
+                window.open(`https://wa.me/559181125809?text=${txt}`, "_blank", "noopener");
             }
         });
         
